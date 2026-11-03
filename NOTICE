@@ -1,0 +1,11 @@
+paseo-relay (self-hosted Node.js relay)
+Copyright (c) 2026 lawrencehe
+
+This product includes software derived from Paseo
+(https://github.com/getpaseo/paseo), Copyright (c) 2025-present Mohamed Boudra,
+licensed under the Apache License, Version 2.0.
+
+relay.mjs is a port of packages/relay/src/cloudflare-adapter.ts
+(@getpaseo/relay v0.11.2). Changes: Cloudflare Durable Object APIs replaced
+with node:http + ws, in-memory sessions, protocol-level ping for half-open
+socket cleanup.

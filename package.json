@@ -1,0 +1,15 @@
+{
+  "name": "paseo-relay-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted, protocol-compatible relay for Paseo (Node.js port of the official Cloudflare relay)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "relay.mjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node relay.mjs",
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": { "ws": "8.18.3" }
+}
